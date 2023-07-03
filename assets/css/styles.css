@@ -65,6 +65,13 @@ a.nav-item:hover {
 	margin-bottom: 15px;
 }
 
+.project-image {
+	padding-top: 20px;
+}
+
+.project-image-description {
+	padding-bottom: 10px;
+}
 .project-figure {
 	margin: 0 auto 1rem auto;
 	max-height: 256px;
@@ -84,6 +91,7 @@ a.nav-item:hover {
 	color: #fff;
 	text-align: left;
 	margin-bottom: 2rem;
+	font-weight: bold;
 }
 
 .intro {
@@ -97,8 +105,12 @@ a.nav-item:hover {
 }
 .project-title {
 	margin-bottom: 25px; /* Adjust the margin as needed */
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: bold;
 	
+  }
+  .project-element {
+	padding-bottom: 30px;
   }
   .project-description {
 	line-height: 1.5;

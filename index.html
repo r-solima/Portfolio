@@ -17,7 +17,7 @@
         <!-- This "nav-menu" is hidden on mobile -->
         <!-- Add the modifier "is-active" to display it on mobile -->
         <div class="nav-left">
-            <a href="/Reza Soleymani - Embedded Quokka CV.pdf" class="nav-item">
+            <a href="Reza Soleymani - Embedded Quokka CV.pdf" class="nav-item">
                 <span class="icon">
                     <i class="fa fa-file-pdf-o"></i>
                 </span>
@@ -75,7 +75,7 @@
     <section id="projects" class="section section-2">
         <div class="container">
             <div class="has-text-centered">
-                <h2 class="title is-3">Projects</h3>
+                <h2 class="title is-2">Projects</h2>
             </div>
 
             <div class="column is-centered">
@@ -83,26 +83,38 @@
                 <div class="box project-text">
                     <article>
                         <div class="has-text-centered">
-                            <h3 class="project-title">Integrated security systems</h3>
-                            <figure class="image project-figure">
-                                <img src="assets/img/project-1.jpg" alt="Image">
-                            </figure>
+                            <h2 class="project-title">1. Integrated security systems</h2>
                         </div>
                         <div>
                           <p class="project-description">
-                            I am proud to present my project for SGI Company, which showcases my proficiency across three levels of programming. This comprehensive endeavor encompasses the following components:
+                            I am honored to present my project for SGI Company, where I have been given the opportunity to demonstrate my proficiency across three levels of programming. This comprehensive endeavor encompasses the following components:
 
                           </p>
                           <ol>
                             <li>
-                              Embedded System (ARM): I skillfully worked on the embedded system aspect of the project, demonstrating my expertise in this specialized field.
+                              Embedded System (ARM): For connecting to the panel, reading IO status, and sending data over TCP/IP, I skillfully utilized ARM STM32F103 microcontroller and FreeRTOS. This allowed me to establish reliable and efficient communication between the system and the network.
+                            </li>
+                            <li class="project element">
+                              Backend Development: 
+
+                              To provide seamless services, I utilized Flask, Python, and MongoDB for backend development. This involved creating robust and efficient code to ensure smooth data handling and processing. In this project, we required four microservices: Auth, IOManagement, Cameras, and Storage. Choosing the most suitable architecture was crucial, and I opted to use ZeroMQ for designing the Service Oriented architecture.
+                              
+                              To ensure secure communication between the client and microservices, I implemented tokenization. This added an extra layer of security to the system, safeguarding the data and enhancing the overall integrity of the application.
+                              
+                              ZeroMQ played a vital role in establishing a well-structured and efficient communication pattern among the microservices. It facilitated reliable message passing and seamless integration between the different components. The architecture I designed for this project was as follows:
+                                <div class="container has-text-centered">
+                                   <figure>
+                                       <img class="project-image" src="assets/img/SOA.png">
+                                       <figcaption class="project-image-description"><em>Designed SOA for FireAlert system</em></figcaption>
+                                   </figure>
+                                </div>
+                            The backend code was designed to be easily understandable, making it easier for developers to maintain and modify the system in the future. The modular approach ensured flexibility and scalability, allowing for future enhancements and updates
+                            
                             </li>
                             <li>
-                              Backend Development: To provide seamless services, I utilized Flask, Python, and MongoDB for backend development. This involved creating robust and efficient code to ensure smooth data handling and processing.
-                            </li>
-                            <li>
-                              Frontend Development: For the user interface, I employed Qt QML and crafted material design components. This allowed me to design an intuitive and visually appealing frontend that enhances the user experience.
-                            </li>
+                                Frontend Development: For the user interface, I utilized Qt QML and implemented material design components. I followed the Flux architecture pattern to develop the UI using QML. This approach ensured a structured and organized codebase, making it easier to manage the state and data flow within the application.
+
+                                By leveraging Qt QML and applying the Flux structure, I was able to design an intuitive and visually appealing frontend that greatly enhanced the user experience. The material design components added a modern and consistent look to the UI, providing users with a familiar and pleasant interface.                            </li>
                           </ol>
                           <p>
                             Throughout the project, I encountered numerous challenges, each serving as an opportunity for growth and problem-solving. I overcame these obstacles with determination and resourcefulness, delivering a high-quality outcome.
