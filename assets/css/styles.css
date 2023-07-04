@@ -123,6 +123,13 @@ a.nav-item:hover {
   .project-figure {
 	margin-top: 10px; /* Adjust the margin as needed */
   }
+
+  ul {
+	padding-top: 20px;
+	padding-left: 20px;
+    list-style-type: disc;
+  }
+
   ol {
 	list-style-type: decimal;
 	margin-left: 20px;
@@ -180,13 +187,9 @@ a.nav-item:hover {
 	}
 }
 
-ul {
-	padding-top: 20px;
-	padding-left: 20px;
-    list-style-type: disc;
-}
+
 
 .project-result {
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
