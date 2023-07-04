@@ -178,4 +178,14 @@ a.nav-item:hover {
 	.image-grid {
 	  grid-template-columns: 1fr; /* Display 1 column */
 	}
-  }
+}
+
+ul {
+	padding-top: 20px;
+	padding-left: 20px;
+    list-style-type: disc;
+}
+
+.project-result {
+	padding-bottom: 20px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Portfolio</title>
     <!-- CSS files -->
@@ -10,8 +11,9 @@
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
     <meta name="author" content="Reza Soleimani">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="nav container void-background">
@@ -28,13 +30,6 @@
                     <i class="fa fa-github"></i>
                 </span>
             </a>
-            <!----
-            <a href="https://twitter.com/hassanhelfi" class="nav-item">
-                <span class="icon">
-                    <i class="fa fa-twitter"></i>
-                </span>
-            </a>   
-            -->            
         </div>
         <div class="nav-right nav-menu">
             <a class="nav-item" href="#about">About</a>
@@ -49,7 +44,7 @@
             <span></span>
         </span>
     </nav>
-            
+
     <!-- About Me -->
     <section id="about" class="section section-1">
         <div class="container has-text-centered">
@@ -84,67 +79,200 @@
                 <div class="box project-text">
                     <article>
                         <div class="has-text-centered">
-                            <h2 class="project-title">1. Integrated security systems</h2>
+                            <h2 class="project-title">1. Column Switch Tester (Automotive)</h2>
                         </div>
                         <div>
-                          <p class="project-description">
-                            I am honored to present my project for SGI Company. This project consists of three key elements: the fire alert system, access control, and video management system. I have been given the opportunity to demonstrate my proficiency across three levels of programming, including embedded system, backend development, and front end. This comprehensive endeavor encompasses the following components:
-                          </p>
-                          <ol>
-                            <li>
-                              Embedded System (ARM): For connecting to the panel, reading IO status, and sending data over TCP/IP, I skillfully utilized ARM STM32F103 microcontroller and FreeRTOS. This allowed me to establish reliable and efficient communication between the system and the network.
-                            </li>
-                            <li class="project element">
-                              Backend Development: 
+                            <p class="project-description">
+                                In one of our projects in Crouse (Automotive Parts Supplier Company), we are engaged in the
+                                development and design of a Column Switch Tester for the end-of-line (EOL) process. This Column Switch
+                                Tester comprises three devices: the Viper Lever, Light Lever, and Assembled Lever. As a
+                                member of our cross-functional team, my primary responsibilities include:
+                            </p>
+                            <ol>
+                                <li class="project-element">
+                                    Developing C/C++ software for the embedded Linux system:
+                                    <ul>
+                                        <li>Developed C/C++ software for an embedded Linux system using Raspberry Pi.</li>
+                                        <li>Collaborated with hardware developers to create an expansion board for Raspberry Pi.</li>
+                                        <li>Implemented a custom Linux driver using SPI protocole to enable reading and writing of I/O from the expansion board.</li>
+                                        <li>Utilized cross-compilation with GCC for efficient software development.</li>
+                                        <li>Connected sensors, expansion board, and barcode reader in the backend.</li>
+                                        <li>Ensured high-speed performance for reading and writing I/O operations.</li>
+                                        <li>Developed a test algorithm based on the QC (Quality Control) requirements.</li>
+                                        <li>Established a connection to the SQL database for reading and writing the test results.</li>
+                                        <li>Implemented the calculation of Overall Equipment Effectiveness (OEE) for the tester line.</li>
+                                        <li>Developed algorithms and logic to accurately calculate OEE based on relevant metrics and data.</li>
+                                        <li>Incorporated OEE calculation into the software system to track and analyze the efficiency of the tester line.</li>
 
-                              To provide seamless services, I utilized Flask, Python, and MongoDB for backend development. This involved creating robust and efficient code to ensure smooth data handling and processing. In this project, we required four microservices: Auth, IOManagement, Cameras, and Storage. Choosing the most suitable architecture was crucial, and I opted to use ZeroMQ for designing the Service Oriented architecture.
-                              
-                              To ensure secure communication between the client and microservices, I implemented tokenization. This added an extra layer of security to the system, safeguarding the data and enhancing the overall integrity of the application.
-                              
-                              ZeroMQ played a vital role in establishing a well-structured and efficient communication pattern among the microservices. It facilitated reliable message passing and seamless integration between the different components. The architecture I designed for this project was as follows:
-                                <div class="container has-text-centered">
-                                   <figure>
-                                       <img class="project-image" src="assets/img/SOA.png">
-                                       <figcaption class="project-image-description"><em>Designed SOA for FireAlert system</em></figcaption>
-                                   </figure>
-                                </div>
-                            The backend code was designed to be easily understandable, making it easier for developers to maintain and modify the system in the future. The modular approach ensured flexibility and scalability, allowing for future enhancements and updates
-                            
-                            </li>
-                            <li>
-                                Frontend Development: For the user interface, I utilized Qt QML and implemented material design components. I followed the Flux architecture pattern to develop the UI using QML. This approach ensured a structured and organized codebase, making it easier to manage the state and data flow within the application.
+                                    </ul>
+                                    <div class="image-grid has-text-centered">
+                                        <figure>
+                                            <img class="project-image" src="assets/img/Expansion_PI.png">
+                                            <figcaption class="project-image-description"><em>Designed Expanssion Board</em></figcaption>
 
-                                By leveraging Qt QML and applying the Flux structure, I was able to design an intuitive and visually appealing frontend that greatly enhanced the user experience. The <a href="https://m3.material.io/">  material design components </a> added a modern and consistent look to the UI, providing users with a familiar and pleasant interface.                            
-                                <div class="container has-text-centered">
-                                    <figure>
-                                        <img class="project-image" src="assets/img/flux_structure.webp">
-                                        <figcaption class="project-image-description"><em>Flux Structure</em></figcaption>
-                                    </figure>
-                                </div>
-                                
-                                <div class="image-grid has-text-centered">
-                                    <figure>
-                                        <img class="project-image" src="assets/img/ui_1.png">
-                                        <figcaption class="project-image-description"><em>Dashboard Page (Light Theme)</em></figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img class="project-image" src="assets/img/ui_3.png">
-                                        <figcaption class="project-image-description"><em>Dashboard Page (Dark Theme)</em></figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img class="project-image" src="assets/img/ui_2.png">
-                                        <figcaption class="project-image-description"><em>Devices Page</em></figcaption>
-                                    </figure>
-                                    <figure>
-                                        <img class="project-image" src="assets/img/ui_4.png">
-                                        <figcaption class="project-image-description"><em>Adding Alert Page</em></figcaption>
-                                    </figure>
-                                </div>
-                            </li>
-                          </ol>
-                          <p>
-                            Throughout the project, I encountered numerous challenges, each serving as an opportunity for growth and problem-solving. I overcame these obstacles with determination and resourcefulness, delivering a high-quality outcome.
-                          </p>
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/Column Switch Panel.jpg">
+                                            <figcaption class="project-image-description"><em>Column Switch Panel</em></figcaption>
+                                        </figure>
+                                    </div>
+                                </li>
+                                <li class="project-element">
+                                    Designing and developing the user interface (UI):
+                                    <ul>
+                                        <li>Developed the user interface using cross-platform QML technology.</li>
+                                        <li>Designed and integrated an OEE (Overall Equipment Effectiveness) feature to measure the availability, performance, and accuracy of the device.</li>
+                                        <li>Provided a user interface that enables operators to monitor and analyze the test results effectively.</li>
+                                        <li>Designed a dedicated page in the user interface for hardware debugging and manual testing.</li>
+                                        <li>Provided clear instructions and visual cues to guide users through the debugging and manual testing process.</li>
+                                        <li>Included relevant controls, indicators, and feedback mechanisms to assist in hardware troubleshooting and validation.</li>
+                                    </ul>
+
+                                    <div class="image-grid has-text-centered">
+                                        <figure>
+                                            <img class="project-image" src="assets/img/Lever_UI_1.jpg">
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/Lever_UI_2.jpg">
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/Lever_UI_3.jpg">
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/Lever_UI_4.jpg">
+                                        </figure>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="project-result"> Project Results: </div>
+                        <ol>
+                            <li>Developed a customizable switch tester capable of testing various car models in Iran.</li>
+                            <li>Provided a cost-effective solution for switch testing, resulting in improved efficiency and accuracy in the automotive industry.</li>
+                        </ol>
+                    </article>
+                </div>
+
+                <!-- Project 2 
+                <div class="box project-text">
+                    <article>
+                        <div class="has-text-centered">
+                            <h4 class="project-title">Project 2 Title</h4>
+                            <figure class="image project-figure">
+                                <img src="assets/img/project-2.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        <div>
+                            <p>
+                                Bless up. Another one. How’s business? Boomin. Don’t ever play yourself. Life is what you make it, so let’s make it.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                -->
+            </div>
+
+            <div class="column is-centered">
+                <!-- Project 2 -->
+                <div class="box project-text">
+                    <article>
+                        <div class="has-text-centered">
+                            <h2 class="project-title">2. Integrated security systems (IoT)</h2>
+                        </div>
+                        <div>
+                            <p class="project-description">
+                                I am honored to present my project for SGI Company. This project consists of three key
+                                elements: the fire alert system, access control, and video management system. I have
+                                been given the opportunity to demonstrate my proficiency across three levels of
+                                programming, including embedded system, backend development, and front end. This
+                                comprehensive endeavor encompasses the following components:
+                            </p>
+                            <ol>
+                                <li class="project-element">
+                                    Embedded System:
+                                    <ul>
+                                        <li>Used ARM STM32F103 microcontroller and FreeRTOS for reliable and efficient
+                                            system-to-network communication.</li>
+                                    </ul>
+                                    <div class="image-grid has-text-centered">
+                                        <figure>
+                                            <img class="project-image" src="assets/img/rtos.png">
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/STM32F103.webp">
+                                        </figure>
+                                    </div>
+                                </li>
+                                <li class="project-element">
+                                    Backend Development:
+
+                                    <ul>
+                                        <li>Utilized Flask, Python, and MongoDB for seamless service provision.</li>
+                                        <li>Implemented four microservices: Auth, IOManagement, Cameras, and Storage.
+                                        </li>
+                                        <li>Chose a suitable architecture using ZeroMQ for Service-Oriented Architecture
+                                            (SOA).</li>
+                                        <li>Implemented tokenization for secure client-microservices communication.</li>
+                                        <li>Emphasized code readability to enhance understanding and ease of
+                                            maintenance.</li>
+                                        <li>Enabled easy future enhancements and updates to the system.</li>
+
+                                    </ul>
+
+                                    <div class="container has-text-centered">
+                                        <figure>
+                                            <img class="project-image" src="assets/img/SOA.png">
+                                            <figcaption class="project-image-description"><em>Designed SOA for FireAlert
+                                                    system</em></figcaption>
+                                        </figure>
+                                    </div>
+                                </li>
+                                <li class="project-element">
+                                    Frontend Development:
+
+                                    <ul>
+                                        <li>Implemented material design components using Qt QML for the user interface.
+                                        </li>
+                                        <li>Followed the Flux architecture pattern for structured and organized
+                                            codebase.</li>
+                                        <li>Managed state and data flow within the application effectively.</li>
+                                        <li>Designed an intuitive and visually appealing frontend for an enhanced user
+                                            experience.</li>
+                                        <li>Utilized material design components for a modern and consistent UI look.
+                                        </li>
+                                    </ul>
+                                    <div class="container has-text-centered">
+                                        <figure>
+                                            <img class="project-image" src="assets/img/flux_structure.webp">
+                                            <figcaption class="project-image-description"><em>Flux Structure</em>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+
+                                    <div class="image-grid has-text-centered">
+                                        <figure>
+                                            <img class="project-image" src="assets/img/ui_1.png">
+                                            <figcaption class="project-image-description"><em>Dashboard Page (Light
+                                                    Theme)</em></figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/ui_3.png">
+                                            <figcaption class="project-image-description"><em>Dashboard Page (Dark
+                                                    Theme)</em></figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/ui_2.png">
+                                            <figcaption class="project-image-description"><em>Devices Page</em>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img class="project-image" src="assets/img/ui_4.png">
+                                            <figcaption class="project-image-description"><em>Adding Alert Page</em>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </li>
+                            </ol>
                         </div>
                     </article>
                 </div>
@@ -173,26 +301,28 @@
     <!-- Social -->
     <section id="social" class="section section-3">
         <div class="container">
-            <div class="has-text-centered">                 
+            <div class="has-text-centered">
                 <h3 class="title is-3">Let's Socialize</h3>
             </div>
             <div class="social-container columns">
                 <div class="column is-6 has-text-centered">
-                    <a target="_blank" href="https://www.linkedin.com/in/rezasolima/"><img class="" src="assets/img/linkedin.png"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/rezasolima/"><img class=""
+                            src="assets/img/linkedin.png"></a>
                 </div>
                 <div class="column is-6 has-text-centered">
                     <a target="_blank" href=""><img class="" src="assets/img/facebook.png"></a>
                 </div>
             </div>
         </div>
-    </section>   
-    
+    </section>
+
     <!-- Footer -->
     <section class="section-4 has-text-centered container">
         <a href="">Reza Soleimani</a>
     </section>
-    
+
     <!-- Scripts  -->
-    <script src="controller.js"></script>        
-</body>    
+    <script src="controller.js"></script>
+</body>
+
 </html>
